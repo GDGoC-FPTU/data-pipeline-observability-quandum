@@ -1,7 +1,8 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=24110847&assignment_repo_type=AssignmentRepo)
+
 # Day 10 Lab: Data Pipeline & Data Observability
 
-**Student Email:** 2A202600786@vinuni.edu.vn
+**Student Email:** ***[26ai.quantmc@vinuni.edu.vn](mailto:26ai.quantmc@vinuni.edu.vn)*** hoặc quandum@gmail.com
 **Name:** Trần Mạnh Chánh Quân
 **Student ID:** 2A202600786
 
@@ -10,6 +11,7 @@
 ## Mo ta
 
 Bai lab xay dung mot **ETL Pipeline** tu dong (`solution.py`) de xu ly du lieu san pham:
+
 - **Extract:** Doc du lieu tho tu `raw_data.json`.
 - **Validate:** Loai bo cac record khong hop le (gia <= 0, category rong).
 - **Transform:** Tinh gia giam 10% (`discounted_price`), chuan hoa `category` ve Title Case, va them cot timestamp `processed_at`.
@@ -22,16 +24,19 @@ Ngoai ra, bai lab con thuc hien **Stress Test** ve Data Observability: so sanh p
 ## Cach chay (How to Run)
 
 ### Prerequisites
+
 ```bash
 pip install pandas
 ```
 
 ### Chay ETL Pipeline
+
 ```bash
 python solution.py
 ```
 
 ### Chay Agent Simulation (Stress Test)
+
 ```bash
 # 1. Chay pipeline de tao du lieu sach
 python solution.py
